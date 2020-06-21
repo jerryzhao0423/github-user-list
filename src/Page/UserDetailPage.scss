@@ -1,0 +1,74 @@
+.userDetailPage {
+  padding: 40px;
+  font-family: 'Open Sans', sans-serif;
+  .backBtn{
+    color: #333333;
+  }
+  .userDetail{
+    margin: 20px 0;
+  }
+  .userAvatar {
+    width: 100%;
+    border: 1px solid #e1e4e8;
+  }
+  .UserInfoCard {
+    background: #424242;
+    padding: 20px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    .userName {
+      font-size: 26px;
+      line-height: 30px;
+      font-weight: 600;
+    }
+    .userLogin,
+    .userLocation {
+      font-size: 20px;
+      line-height: 24px;
+      color: #f6f6f6;
+    }
+    .userLocation {
+      display: flex;
+      margin-top: 10px;
+      span {
+        display: inline-block;
+        margin-left: 8px;
+      }
+    }
+    .userInfoLabel{
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+    }
+    .userInfoNum{
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 36px;
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 600px){
+  .userDetailPage {
+    .UserInfoCard {
+      .userName {
+        font-size: 20px;
+        line-height: 24px;
+      }
+      .userLogin,
+      .userLocation {
+        font-size: 16px;
+        line-height: 20px;
+      }
+      .userInfoLabel{
+        font-size: 16px;
+        line-height: 20px;
+      }
+      .userInfoNum{
+        font-size: 20px;
+        line-height: 30px;
+      }
+    }
+  }
+}

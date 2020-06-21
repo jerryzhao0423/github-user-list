@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  * {
+    box-sizing: border-box;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+.app {
+  min-width: 320px;
+  margin: 0 auto;
+}
